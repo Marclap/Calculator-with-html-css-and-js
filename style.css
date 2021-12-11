@@ -1,77 +1,77 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .button {
-	width: 50px;
-	height: 50px;
-	font-size: 25px;
-	margin: 2px;
-	cursor: pointer;
-	border: none;
-	border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
 .horizontalButton {
-	width: 106px;
-	height: 50px;
-	font-size: 25px;
-	margin: 2px;
-	cursor: pointer;
-	border: none;
-	border-radius: 5px;
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
 .verticalButton {
-	width: 50px;
-	height: 106px;
-	font-size: 25px;
-	margin: 2px;
-	cursor: pointer;
-	border: none;
-	border-radius: 5px;
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
 #textview {
-	width: 207px;
-	margin: 4px;
-	font-size: 25px;
-	padding: 5px;
-	border: none;
-	border-radius: 5px;
+    width: 207px;
+    margin: 4px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 .main {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .bg {
-	background: rgb(154, 6, 128);
-	background: -moz-linear-gradient(
-		90deg,
-		rgba(154, 6, 128, 1) 0%,
-		rgba(121, 1, 140, 1) 33%,
-		rgba(76, 0, 112, 1) 66%,
-		rgba(22, 0, 64, 1) 100%
-	);
-	background: -webkit-linear-gradient(
-		90deg,
-		rgba(154, 6, 128, 1) 0%,
-		rgba(121, 1, 140, 1) 33%,
-		rgba(76, 0, 112, 1) 66%,
-		rgba(22, 0, 64, 1) 100%
-	);
-	background: linear-gradient(
-		90deg,
-		rgba(154, 6, 128, 1) 0%,
-		rgba(121, 1, 140, 1) 33%,
-		rgba(76, 0, 112, 1) 66%,
-		rgba(22, 0, 64, 1) 100%
-	);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9a0680",endColorstr="#160040",GradientType=1);
-	height: 100vh;
+    background: rgb(154, 6, 128);
+    background: -moz-linear-gradient(
+        90deg,
+        rgba(154, 6, 128, 1) 0%,
+        rgba(121, 1, 140, 1) 33%,
+        rgba(76, 0, 112, 1) 66%,
+        rgba(22, 0, 64, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        90deg,
+        rgba(154, 6, 128, 1) 0%,
+        rgba(121, 1, 140, 1) 33%,
+        rgba(76, 0, 112, 1) 66%,
+        rgba(22, 0, 64, 1) 100%
+    );
+    background: linear-gradient(
+        90deg,
+        rgba(154, 6, 128, 1) 0%,
+        rgba(121, 1, 140, 1) 33%,
+        rgba(76, 0, 112, 1) 66%,
+        rgba(22, 0, 64, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9a0680",endColorstr="#160040",GradientType=1);
+    height: 100vh;
 }
